@@ -1,12 +1,10 @@
-SX_VM_CNONE();
-
 -- // Services
 
 local libraryLoadAt = tick();
 
-local Signal = sharedRequire('utils/Signal.lua');
-local Services = sharedRequire('utils/Services.lua');
-local KeyBindVisualizer = sharedRequire('classes/KeyBindVisualizer.lua');
+local Signal = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Signal.lua"))()
+local Services = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Services.lua"))()
+local KeyBindVisualizer = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/KeyBindVisualizer.lua"))()
 
 local CoreGui, Players, RunService, TextService, UserInputService, ContentProvider, HttpService, TweenService, GuiService, TeleportService = Services:Get('CoreGui', 'Players', 'RunService', 'TextService', 'UserInputService', 'ContentProvider', 'HttpService', 'TweenService', 'GuiService', 'TeleportService');
 
