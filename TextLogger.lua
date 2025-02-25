@@ -1,9 +1,9 @@
-local library = sharedRequire('@UILibrary.lua');
+local library = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/UILibrary.lua"))()
 
-local Services = sharedRequire('@utils/Services.lua');
-local Signal = sharedRequire('@utils/Signal.lua');
-local ToastNotif = sharedRequire('@classes/ToastNotif.lua');
-local Security = sharedRequire('@utils/Security.lua');
+local Services = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Services.lua"))()
+local Signal = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Signal.lua"))()
+local ToastNotif = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/ToastNotif.lua"))()
+local Security = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Security.lua"))()
 
 local UserInputService, TweenService, TextService, ReplicatedStorage, Players, HttpService = Services:Get('UserInputService', 'TweenService', 'TextService', 'ReplicatedStorage', 'Players', 'HttpService');
 local LocalPlayer = Players.LocalPlayer;
