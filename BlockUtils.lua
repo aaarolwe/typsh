@@ -1,6 +1,6 @@
 local Services = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Services.lua"))()
 local library = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/UILibrary.lua"))()
-local AltManagerAPI = sharedRequire('../classes/AltManagerAPI.lua');
+local AltManagerAPI = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/AltManagerAPI.lua"))()
 local Players, GuiService, HttpService, StarterGui, VirtualInputManager, CoreGui = Services:Get('Players', 'GuiService', 'HttpService', 'StarterGui', 'VirtualInputManager', 'CoreGui');
 local LocalPlayer = Players.LocalPlayer;
 
