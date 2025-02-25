@@ -1,6 +1,6 @@
-local Services = sharedRequire('@utils/Services.lua');
+local Services = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Services.lua"))()
 local UserInputService = Services:Get('UserInputService');
-local Maid = sharedRequire('@utils/Maid.lua');
+local Maid = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Maid.lua"))()
 
 local keybindVisualizer = {};
 keybindVisualizer.__index = keybindVisualizer;
