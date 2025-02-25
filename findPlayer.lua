@@ -1,4 +1,4 @@
-local Services = sharedRequire('./Services.lua');
+local Services = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Services.lua"))()
 local Players = Services:Get('Players');
 
 return function (playerName)
