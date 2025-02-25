@@ -1,9 +1,9 @@
 SX_VM_CNONE();
-local Maid = sharedRequire('Maid.lua');
-local Services = sharedRequire('Services.lua');
+local Maid = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Maid.lua"))()
+local Services = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Services.lua"))()
 
-local toCamelCase = sharedRequire('toCamelCase.lua');
-local library = sharedRequire('../UILibrary.lua');
+local toCamelCase = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/toCamelCase.lua"))()
+local library = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/UILibrary.lua"))()
 
 local Players, CorePackages, HttpService = Services:Get('Players', 'CorePackages', 'HttpService');
 local LocalPlayer = Players.LocalPlayer;
