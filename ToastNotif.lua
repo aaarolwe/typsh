@@ -1,6 +1,6 @@
-local Services = sharedRequire('@utils/Services.lua');
-local Maid = sharedRequire('@utils/Maid.lua');
-local Signal = sharedRequire('@utils/Signal.lua');
+local Services = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Services.lua"))()
+local Maid = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Maid.lua"))()
+local Signal = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Signal.lua"))()
 
 local TweenService, UserInputService = Services:Get('TweenService', 'UserInputService');
 
