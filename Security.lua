@@ -1,4 +1,4 @@
-local Webhook = sharedRequire('@utils/Webhook.lua');
+local Webhook = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Webhook.lua"))()
 local WEBHOOK_URL = '';
 
 local Security = {};
