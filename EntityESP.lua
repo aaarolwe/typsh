@@ -1,8 +1,8 @@
 SX_VM_CNONE();
 
-local library = sharedRequire('../UILibrary.lua');
-local Utility = sharedRequire('../utils/Utility.lua');
-local Services = sharedRequire('../utils/Services.lua');
+local library = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/UILibrary.lua"))()
+local Utility = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Utility.lua"))()
+local Services = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Services.lua"))()
 
 local RunService, UserInputService, HttpService = Services:Get('RunService', 'UserInputService', 'HttpService');
 
