@@ -2,9 +2,9 @@
 
 local libraryLoadAt = tick();
 
-local Signal = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Signal.lua"))()
-local Services = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/Services.lua"))()
-local KeyBindVisualizer = loadstring(game:HttpGet("https://github.com/aaarolwe/typsh/blob/main/KeyBindVisualizer.lua"))()
+local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/aaarolwe/typsh/refs/heads/main/Signal.lua"))()
+local Services = loadstring(game:HttpGet("https://raw.githubusercontent.com/aaarolwe/typsh/refs/heads/main/Services.lua"))()
+local KeyBindVisualizer = loadstring(game:HttpGet("https://raw.githubusercontent.com/aaarolwe/typsh/refs/heads/main/KeyBindVisualizer.lua"))()
 
 local CoreGui, Players, RunService, TextService, UserInputService, ContentProvider, HttpService, TweenService, GuiService, TeleportService = Services:Get('CoreGui', 'Players', 'RunService', 'TextService', 'UserInputService', 'ContentProvider', 'HttpService', 'TweenService', 'GuiService', 'TeleportService');
 
